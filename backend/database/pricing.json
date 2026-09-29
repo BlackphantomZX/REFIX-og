@@ -1,0 +1,175 @@
+{
+  "currency": "INR",
+  "labor_share_of_min": 0.22,
+  "note": "Sample pricing dataset for prototyping only \u2014 not verified market prices. Replace with sourced Indian repair-market data before production use.",
+  "tier_pricing": {
+    "screen": {
+      "budget": [
+        2500,
+        4500
+      ],
+      "mid": [
+        4500,
+        8000
+      ],
+      "flagship": [
+        8000,
+        16000
+      ]
+    },
+    "battery": {
+      "budget": [
+        1200,
+        2000
+      ],
+      "mid": [
+        1800,
+        3000
+      ],
+      "flagship": [
+        2500,
+        4500
+      ]
+    },
+    "charging": {
+      "budget": [
+        800,
+        1500
+      ],
+      "mid": [
+        1200,
+        2200
+      ],
+      "flagship": [
+        1800,
+        3200
+      ]
+    },
+    "camera": {
+      "budget": [
+        1500,
+        2800
+      ],
+      "mid": [
+        2500,
+        4500
+      ],
+      "flagship": [
+        4000,
+        9000
+      ]
+    },
+    "audio": {
+      "budget": [
+        700,
+        1400
+      ],
+      "mid": [
+        1000,
+        2000
+      ],
+      "flagship": [
+        1500,
+        3000
+      ]
+    },
+    "buttons": {
+      "budget": [
+        500,
+        1000
+      ],
+      "mid": [
+        800,
+        1500
+      ],
+      "flagship": [
+        1200,
+        2200
+      ]
+    },
+    "water": {
+      "budget": [
+        1500,
+        4000
+      ],
+      "mid": [
+        2500,
+        6000
+      ],
+      "flagship": [
+        4000,
+        10000
+      ]
+    },
+    "body": {
+      "budget": [
+        1200,
+        2500
+      ],
+      "mid": [
+        2000,
+        4000
+      ],
+      "flagship": [
+        3500,
+        7000
+      ]
+    },
+    "software": {
+      "budget": [
+        500,
+        1200
+      ],
+      "mid": [
+        500,
+        1200
+      ],
+      "flagship": [
+        800,
+        1500
+      ]
+    }
+  },
+  "regions": [
+    {
+      "id": "",
+      "label": "India-wide estimate",
+      "multiplier": 1.0
+    },
+    {
+      "id": "delhi",
+      "label": "Delhi",
+      "multiplier": 1.05
+    },
+    {
+      "id": "mumbai",
+      "label": "Mumbai",
+      "multiplier": 1.1
+    },
+    {
+      "id": "bengaluru",
+      "label": "Bengaluru",
+      "multiplier": 1.08
+    },
+    {
+      "id": "hyderabad",
+      "label": "Hyderabad",
+      "multiplier": 1.0
+    },
+    {
+      "id": "pune",
+      "label": "Pune",
+      "multiplier": 1.02
+    },
+    {
+      "id": "bhopal",
+      "label": "Bhopal",
+      "multiplier": 0.94
+    },
+    {
+      "id": "other",
+      "label": "Other city",
+      "multiplier": 1.0
+    }
+  ]
+}

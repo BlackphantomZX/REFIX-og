@@ -1,0 +1,493 @@
+[
+  {
+    "id": "screen",
+    "name": "Screen & Display",
+    "examples": "Cracked glass, broken display, touch not working, lines, black screen",
+    "questions": [
+      {
+        "key": "display_working",
+        "label": "Is the display still showing an image?",
+        "options": [
+          {
+            "value": "yes",
+            "label": "Yes"
+          },
+          {
+            "value": "no",
+            "label": "No"
+          },
+          {
+            "value": "not_sure",
+            "label": "Not sure"
+          }
+        ]
+      },
+      {
+        "key": "touch_working",
+        "label": "Does touch still work?",
+        "options": [
+          {
+            "value": "yes",
+            "label": "Yes"
+          },
+          {
+            "value": "partial",
+            "label": "Partially"
+          },
+          {
+            "value": "no",
+            "label": "No"
+          },
+          {
+            "value": "not_sure",
+            "label": "Not sure"
+          }
+        ]
+      },
+      {
+        "key": "damage_type",
+        "label": "Is only the outer glass cracked, or is the display itself visibly damaged?",
+        "options": [
+          {
+            "value": "glass_only",
+            "label": "Glass only",
+            "sub": "Screen looks fine under the cracks"
+          },
+          {
+            "value": "display_damaged",
+            "label": "Display damaged",
+            "sub": "Discoloration, lines, or dead areas"
+          },
+          {
+            "value": "not_sure",
+            "label": "Not sure"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "battery",
+    "name": "Battery",
+    "examples": "Drains quickly, won't charge fully, shuts down, swelling",
+    "questions": [
+      {
+        "key": "phone_age",
+        "label": "Approximately how old is the phone?",
+        "options": [
+          {
+            "value": "lt1",
+            "label": "Under 1 year"
+          },
+          {
+            "value": "1to2",
+            "label": "1\u20132 years"
+          },
+          {
+            "value": "2to3",
+            "label": "2\u20133 years"
+          },
+          {
+            "value": "gt3",
+            "label": "Over 3 years"
+          },
+          {
+            "value": "not_sure",
+            "label": "Not sure"
+          }
+        ]
+      },
+      {
+        "key": "shuts_down",
+        "label": "Does the phone shut down unexpectedly, even with charge remaining?",
+        "options": [
+          {
+            "value": "yes",
+            "label": "Yes"
+          },
+          {
+            "value": "no",
+            "label": "No"
+          }
+        ]
+      },
+      {
+        "key": "swollen",
+        "label": "Is the battery or back panel visibly swollen or lifted?",
+        "options": [
+          {
+            "value": "yes",
+            "label": "Yes"
+          },
+          {
+            "value": "no",
+            "label": "No"
+          },
+          {
+            "value": "not_sure",
+            "label": "Not sure"
+          }
+        ]
+      },
+      {
+        "key": "overheating",
+        "label": "Does the phone get unusually hot during normal use?",
+        "options": [
+          {
+            "value": "yes",
+            "label": "Yes"
+          },
+          {
+            "value": "no",
+            "label": "No"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "charging",
+    "name": "Charging",
+    "examples": "Won't charge, loose connection, port damaged",
+    "questions": [
+      {
+        "key": "charges_at_all",
+        "label": "Does the phone charge at all?",
+        "options": [
+          {
+            "value": "slow",
+            "label": "Charges, but very slowly"
+          },
+          {
+            "value": "intermittent",
+            "label": "Only sometimes / need to angle the cable"
+          },
+          {
+            "value": "no",
+            "label": "Doesn't charge at all"
+          }
+        ]
+      },
+      {
+        "key": "port_debris",
+        "label": "Can you see lint, dust or damage inside the port?",
+        "options": [
+          {
+            "value": "yes",
+            "label": "Yes"
+          },
+          {
+            "value": "no",
+            "label": "No"
+          },
+          {
+            "value": "not_sure",
+            "label": "Not sure"
+          }
+        ]
+      },
+      {
+        "key": "cable_tested",
+        "label": "Have you tried a different cable or charger?",
+        "options": [
+          {
+            "value": "yes_same",
+            "label": "Yes, same problem"
+          },
+          {
+            "value": "no",
+            "label": "Haven't tried"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "camera",
+    "name": "Camera",
+    "examples": "Not working, blurry, cracked glass, focus issues",
+    "questions": [
+      {
+        "key": "which_camera",
+        "label": "Which camera is affected?",
+        "options": [
+          {
+            "value": "front",
+            "label": "Front camera"
+          },
+          {
+            "value": "rear",
+            "label": "Rear camera"
+          },
+          {
+            "value": "both",
+            "label": "Both"
+          }
+        ]
+      },
+      {
+        "key": "symptom",
+        "label": "What's happening with it?",
+        "options": [
+          {
+            "value": "not_working",
+            "label": "Not working / black screen"
+          },
+          {
+            "value": "blurry",
+            "label": "Blurry or won't focus"
+          },
+          {
+            "value": "glass_cracked",
+            "label": "Camera glass is cracked"
+          },
+          {
+            "value": "shaking",
+            "label": "Shaking or grinding sound"
+          }
+        ]
+      },
+      {
+        "key": "depth",
+        "label": "As far as you can tell, is it just the outer glass or something deeper?",
+        "options": [
+          {
+            "value": "glass_only",
+            "label": "Glass only"
+          },
+          {
+            "value": "deeper",
+            "label": "Seems deeper than the glass"
+          },
+          {
+            "value": "not_sure",
+            "label": "Not sure"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "audio",
+    "name": "Speaker, mic or earpiece",
+    "examples": "No sound, distorted audio, mic not picking up",
+    "questions": [
+      {
+        "key": "which_part",
+        "label": "Which part is affected?",
+        "options": [
+          {
+            "value": "speaker",
+            "label": "Main speaker"
+          },
+          {
+            "value": "mic",
+            "label": "Microphone"
+          },
+          {
+            "value": "earpiece",
+            "label": "Earpiece (call speaker)"
+          }
+        ]
+      },
+      {
+        "key": "symptom",
+        "label": "What's happening?",
+        "options": [
+          {
+            "value": "silent",
+            "label": "No sound at all"
+          },
+          {
+            "value": "distorted",
+            "label": "Sound is distorted or crackly"
+          },
+          {
+            "value": "intermittent",
+            "label": "Works sometimes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "buttons",
+    "name": "Buttons",
+    "examples": "Power, volume or another button not responding",
+    "questions": [
+      {
+        "key": "which_button",
+        "label": "Which button is affected?",
+        "options": [
+          {
+            "value": "power",
+            "label": "Power button"
+          },
+          {
+            "value": "volume",
+            "label": "Volume button"
+          },
+          {
+            "value": "other",
+            "label": "Another button"
+          }
+        ]
+      },
+      {
+        "key": "symptom",
+        "label": "What's happening with it?",
+        "options": [
+          {
+            "value": "unresponsive",
+            "label": "Doesn't respond at all"
+          },
+          {
+            "value": "stuck",
+            "label": "Physically stuck / won't click"
+          },
+          {
+            "value": "intermittent",
+            "label": "Works sometimes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "water",
+    "name": "Water / Liquid Damage",
+    "examples": "Dropped in water, spilled liquid, damp problems after exposure",
+    "questions": [
+      {
+        "key": "submerged",
+        "label": "Was the phone fully submerged, or just splashed/damp?",
+        "options": [
+          {
+            "value": "submerged",
+            "label": "Fully submerged"
+          },
+          {
+            "value": "splashed",
+            "label": "Splashed or damp"
+          },
+          {
+            "value": "not_sure",
+            "label": "Not sure"
+          }
+        ]
+      },
+      {
+        "key": "turns_on",
+        "label": "Does the phone currently turn on?",
+        "options": [
+          {
+            "value": "yes_normal",
+            "label": "Yes, seems normal"
+          },
+          {
+            "value": "yes_issues",
+            "label": "Yes, but with problems"
+          },
+          {
+            "value": "no",
+            "label": "No"
+          }
+        ]
+      },
+      {
+        "key": "time_since",
+        "label": "How long ago did this happen?",
+        "options": [
+          {
+            "value": "lt1h",
+            "label": "Under an hour ago"
+          },
+          {
+            "value": "today",
+            "label": "A few hours / today"
+          },
+          {
+            "value": "days",
+            "label": "A few days ago or more"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "body",
+    "name": "Back / Body",
+    "examples": "Cracked back glass, bent frame, damaged panel",
+    "questions": [
+      {
+        "key": "which_part",
+        "label": "What's damaged?",
+        "options": [
+          {
+            "value": "back_glass",
+            "label": "Back glass"
+          },
+          {
+            "value": "frame",
+            "label": "Frame / body bent"
+          },
+          {
+            "value": "camera_housing",
+            "label": "Camera housing"
+          },
+          {
+            "value": "multiple",
+            "label": "More than one of these"
+          }
+        ]
+      },
+      {
+        "key": "severity",
+        "label": "Is it cosmetic, or does it affect how the phone functions?",
+        "options": [
+          {
+            "value": "cosmetic",
+            "label": "Cosmetic only"
+          },
+          {
+            "value": "functional",
+            "label": "Affects function"
+          },
+          {
+            "value": "not_sure",
+            "label": "Not sure"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "software",
+    "name": "Software",
+    "examples": "Stuck on logo, restarting, crashing apps, slow performance",
+    "questions": [
+      {
+        "key": "symptom",
+        "label": "What's the main symptom?",
+        "options": [
+          {
+            "value": "stuck_logo",
+            "label": "Stuck on the logo / won't boot"
+          },
+          {
+            "value": "restart_loop",
+            "label": "Restarts repeatedly"
+          },
+          {
+            "value": "crashing",
+            "label": "Apps keep crashing"
+          },
+          {
+            "value": "slow",
+            "label": "Extremely slow"
+          }
+        ]
+      }
+    ]
+  }
+]
