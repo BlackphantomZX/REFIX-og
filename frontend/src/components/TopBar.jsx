@@ -6,7 +6,7 @@ export default function TopBar({ stepNumber, onReset }) {
       <div className="brand-row">
         <div className="brand">
           <span className="dot" />
-          RepairCheck
+          ReFix
         </div>
         {stepNumber > 1 ? (
           <button className="reset-link" onClick={onReset}>
